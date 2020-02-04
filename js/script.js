@@ -6,6 +6,12 @@ if (document.getElementById('num2').value == '') {
     document.getElementById('num2').value = '0';
 };
 
+function clearInputs() {
+    document.getElementById('num1').value = '0';
+    document.getElementById('num2').value = '0';
+    document.getElementById('out').innerHTML = 'Результат:';
+}
+
 function plus() {
     if (document.getElementById('num1').value == '') {
         document.getElementById('num1').value = '0';
